@@ -27,9 +27,10 @@ The scripts are a mix of Perl and Python programs and can be adapted to other sp
 
 ## Usage
 
+```bash
 perl 1_cal.fr.pl <input_file> <output_file>
-perl 2_get.pos.idx.pl <input_file> 
-perl 3_cal.seg.swd.step.pop.pl <segment_name> <chr> <start> <end> <window> <step> <output>
-perl 4_cal.gene.pop.pl <up_length> <down_length> <output>
+perl 2_get.pos.idx.pl <input_file>
+perl 3_cal.seg.swd.step.pop.pl <segment_name>
+perl 4_cal.gene.pop.pl <up_length> <down_length>
 python3 haplotype_analysis.py
 
